@@ -26,7 +26,8 @@ research_task = Task(
     description="""Identify the top 3 major breakthroughs in the field of AI Agents this year.
     Provide a concise summary for each breakthrough and explain its practical impact in the industry.""",
     expected_output="A well structured report containing 3 clear points and a definitive conclusion",
-    agent=tech_researcher # assign the task to the agent
+    agent=tech_researcher,# assign the task to the agent
+    output_file="ai_agents_report.md"
 )
 
 # 4. Assambling the Crew
